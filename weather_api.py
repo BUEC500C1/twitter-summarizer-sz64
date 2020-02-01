@@ -18,5 +18,13 @@ def get_coord(airport):
 def get_temp(latitude, longitude):
 	Temp = "Error";
 	w_r = requests.get('https://api.weather.gov/points/39.7456,-97.0892');
-	w_d = json.load(w_r.text)
+	if str(w_r) == '<Response [200]>':
+		w_d = json.loads(w_r.text)
+		cwa = w_d['properties']['cwa'];
+		gridx = w_d['properties']['gridX'];
+		gridy = w_d['properties']['gridY'];
+		w_r2 = requests.get('https://api.weather.gov/gridpoints/TOP/31,80/forecast?units=us');
+		if str(w_r2) == '<Response [200]>':
+			w_d2 = json.loads(w_r2.text)
+			Temp = w_d2['properties']['periods'][0]['temperature'];
 	return Temp;
