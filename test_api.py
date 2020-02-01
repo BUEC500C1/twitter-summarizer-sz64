@@ -1,4 +1,4 @@
-import weather_api.py as w
+import weather_api as w
 
 def test_valid():
 	assert True
