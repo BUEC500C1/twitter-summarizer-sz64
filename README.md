@@ -11,3 +11,5 @@ Incorporate the period portion of the temperature retrieval.
  
 More ways to search for airports other than the full name.
  - Incorporate ways to find best match when there are slight errors in the search term
+
+Currently some airports do not have a point that works for weather.gov, find a way to retrieve this weather data possibly with a different API. 
