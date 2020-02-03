@@ -1,7 +1,12 @@
 # APIs
-Work with either the weather.gov of openweathermap API to gather data on the weather of airports. 
+Work with the weather.gov API to gather data on the weather of airports. 
 
-Possible User Stories: 
- - 
- - 
- - 
+User Story: 
+ - I as a user would like to find out the current temperature at a airport.
+ - I as a user would like to find out the temperature at an airport at certain times of day. 
+ 
+Backlog: 
+Incorporate the period portion of the temperature retrieval. 
+	- Currently only gathers the current temperature.
+More ways to search for airports other than the full name.
+	- Incorporate ways to find best match when there are slight errors in the search term
