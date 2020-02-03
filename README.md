@@ -1,11 +1,12 @@
 # APIs
 Work with the weather.gov API to gather data on the weather of airports. 
 
-User Story: 
+## User Story: 
  - I as a user would like to find out the current temperature at a airport.
  - I as a user would like to find out the temperature at an airport at certain times of day. 
  
-Backlog: 
+## Backlog: 
+
 Incorporate the period portion of the temperature retrieval. 
  - Currently only gathers the current temperature.
  
