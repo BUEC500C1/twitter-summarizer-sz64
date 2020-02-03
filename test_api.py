@@ -11,7 +11,7 @@ def test_invalid_getcoord():
 	assert ('140.386001587', '35.7647018433') == w.get_coord("NARITA1 INTERNATIONAL AIRPORT");
 	
 def test_valid_temp():
-	assert isnumeric(w.get_temp(-95.622497558594,39.068698883057));
+	assert isinstance(w.get_temp(-95.622497558594,39.068698883057),int);
 	
 def test_invalid_temp():
 	assert "Error" == w.get_temp('a','b');
