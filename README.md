@@ -7,6 +7,7 @@ User Story:
  
 Backlog: 
 Incorporate the period portion of the temperature retrieval. 
-	- Currently only gathers the current temperature.
+ - Currently only gathers the current temperature.
+ 
 More ways to search for airports other than the full name.
-	- Incorporate ways to find best match when there are slight errors in the search term
+ - Incorporate ways to find best match when there are slight errors in the search term
